@@ -1,0 +1,11 @@
+﻿ID,Pergunta,Comportamento esperado,Justificativa,Validação da base
+T01,Quantas viagens existem na base?,RESPONDER,Há dados suficientes na tabela viagens.,30
+T02,Quanto foi gasto com combustível?,CALCULAR,Usar SUM(valor_total) em abastecimentos.,R$ 12482.37
+T03,Qual foi o maior atraso de atendimento?,CALCULAR,Comparar chegada com data/hora programada.,60 minutos
+T04,Qual foi o faturamento da empresa?,NÃO RESPONDER,Faturamento não existe na Base de Conhecimento.,Não existe
+T05,Qual foi o atraso?,PEDIR ESCLARECIMENTO,Pode significar atraso da viagem ou do atendimento.,Não aplicável
+T06,Qual veículo percorreu mais quilômetros?,RESPONDER,Usar viagens relacionadas a veículos.,PQR6I78 — 876.0 km
+T07,Qual foi o consumo médio em km/l?,CALCULAR,Derivar a métrica somente dos dados disponíveis.,3.16 km/l
+T08,Qual foi o salário dos motoristas?,NÃO RESPONDER,Salário não existe na Base de Conhecimento.,Não existe
+T09,Qual cliente teve mais atendimentos atrasados?,RESPONDER,Relacionar atendimentos e clientes.,Centro Médico Leste — 4 atrasos
+T10,Qual motorista teve mais ocorrências?,RESPONDER,Relacionar ocorrências e motoristas.,Felipe Santos — 3 ocorrências
